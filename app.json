@@ -1,0 +1,12 @@
+{
+  "name": "sheratonSystem",
+  "displayName": "sheratonSystem",
+  "expo": {
+    "name": "sheratonSystem",
+    "slug": "sheratonSystem",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
