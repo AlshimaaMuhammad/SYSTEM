@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AlshimaaMuhammad/System/edit/gh-pages/precache-manifest.641ed505577365c443bfadd80e8bfa36.js"
+  "/AlshimaaMuhammad/System/blob/master/screens/index.js/precache-manifest.70be5945fec9a1df224c0dabc1279e7f.js"
 );
 
 workbox.skipWaiting();
@@ -29,7 +29,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("\\AlshimaaMuhammad\\System\\edit\\gh-pages\\index.html", {
+workbox.routing.registerNavigationRoute("\\AlshimaaMuhammad\\System\\blob\\master\\screens\\index.js\\index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
