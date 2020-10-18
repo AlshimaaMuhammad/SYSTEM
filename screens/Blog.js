@@ -8,6 +8,7 @@ import {
   FlatList,
   TextInput,
   Platform,
+  Image,
 } from "react-native";
 import { DataTable } from "react-native-paper";
 import RNPrint from "react-native-print";
@@ -62,6 +63,9 @@ class Blog extends Component {
     var t = num + tax + dis;
     return t;
   }
+  delete(){
+    
+  }
   //print action
   state = {
     currentSelectedPrinter: null,
@@ -69,8 +73,8 @@ class Blog extends Component {
   // iOS Only
   choosePrinter = async () => {
     const currentSelectedPrinter = await RNPrint.selectPrinter({
-      x: 100,
-      y: 100,
+      x: 200,
+      y: 200,
     });
     this.setState({ currentSelectedPrinter });
   };
@@ -89,7 +93,7 @@ class Blog extends Component {
 
   async printHTML() {
     await Print.printToFileAsync({
-      html: "<h1>Heading 1</h1><h2>Heading 2</h2><h3>Heading 3</h3>",
+      html: "<h1>Heading 1</h1><h2>Heading 2</h2>",
     });
   }
 
@@ -121,19 +125,30 @@ class Blog extends Component {
     console.log(array);
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-        <Grid><Row><Col><Text>NAME :</Text> 
-        </Col>
+      <Grid >
+        <Row style={{margin:5 ,paddingBottom:100}}>
+         <Col >
+           <Image style={{width:750,height:180,resizeMode :'center' }} source={require('../screens/sheraton.jpeg')}/>
+         </Col>
+         <Col >
+           <Image style={{width:400,height:180,resizeMode : 'center' }} source={require('../screens/CMB.jpeg')}/>
+          </Col>
+        </Row>
+        <Row style={{display:'flex' ,margin:1 ,alignItems:'flex-start'}}>
+                         
+          <Col><Text>NAME :</Text></Col> 
         <Col><TextInput
         placeholder="Customer name"
         /></Col>
         <Col><Text>receiptNo :</Text> 
         </Col>
         <Col><TextInput
-        placeholder="Resciept number"
-        /></Col></Row></Grid>
+        placeholder="Reciept number"
+        /></Col>
         
-        
-        <DataTable style={{margin:1}}>
+        </Row>
+        </Grid>
+        <DataTable style={{margin:1 ,alignSelf:"center"}}>
           <DataTable.Header>
             <DataTable.Title>Material Name</DataTable.Title>
             <DataTable.Title>Weight</DataTable.Title>
@@ -236,6 +251,12 @@ class Blog extends Component {
           title="calc"
           onPress={() => {
             this.handle4();
+          }}
+        />
+        <Button
+          title="Delete"
+          onPress={() => {
+            this.delete();
           }}
         />
         {Platform.OS === "ios" && this.iosOptions()}
