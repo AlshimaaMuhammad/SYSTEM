@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AlshimaaMuhammad/System/edit/gh-pages/precache-manifest.1553af9001bf95fd16447369e4a71699.js"
+  "/AlshimaaMuhammad/System/edit/gh-pages/precache-manifest.641ed505577365c443bfadd80e8bfa36.js"
 );
 
 workbox.skipWaiting();

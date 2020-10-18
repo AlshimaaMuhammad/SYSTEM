@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/app.20a707af.chunk.js",
-    "app.js.map": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/app.20a707af.chunk.js.map",
+    "app.js": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/app.6da47d8a.chunk.js",
+    "app.js.map": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/app.6da47d8a.chunk.js.map",
     "runtime~app.js": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/runtime~app.383ac5c1.js",
     "runtime~app.js.map": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/runtime~app.383ac5c1.js.map",
-    "static/js/2.f05de07d.chunk.js": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/2.f05de07d.chunk.js",
-    "static/js/2.f05de07d.chunk.js.map": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/2.f05de07d.chunk.js.map",
+    "static/js/2.5940ad4a.chunk.js": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/2.5940ad4a.chunk.js",
+    "static/js/2.5940ad4a.chunk.js.map": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/2.5940ad4a.chunk.js.map",
     "fonts/AntDesign.ttf": "/AlshimaaMuhammad/System/edit/gh-pages/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/AlshimaaMuhammad/System/edit/gh-pages/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/AlshimaaMuhammad/System/edit/gh-pages/./fonts/Feather.ttf",
@@ -21,11 +21,13 @@
     "index.html": "/AlshimaaMuhammad/System/edit/gh-pages/index.html",
     "manifest.json": "/AlshimaaMuhammad/System/edit/gh-pages/manifest.json",
     "serve.json": "/AlshimaaMuhammad/System/edit/gh-pages/serve.json",
-    "static/js/2.f05de07d.chunk.js.LICENSE.txt": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/2.f05de07d.chunk.js.LICENSE.txt"
+    "static/js/2.5940ad4a.chunk.js.LICENSE.txt": "/AlshimaaMuhammad/System/edit/gh-pages/static/js/2.5940ad4a.chunk.js.LICENSE.txt",
+    "static/media/CMB.jpeg": "/AlshimaaMuhammad/System/edit/gh-pages/static/media/CMB.7675520b.jpeg",
+    "static/media/sheraton.jpeg": "/AlshimaaMuhammad/System/edit/gh-pages/static/media/sheraton.a8cecd42.jpeg"
   },
   "entrypoints": [
     "static/js/runtime~app.383ac5c1.js",
-    "static/js/2.f05de07d.chunk.js",
-    "static/js/app.20a707af.chunk.js"
+    "static/js/2.5940ad4a.chunk.js",
+    "static/js/app.6da47d8a.chunk.js"
   ]
 }
